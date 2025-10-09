@@ -196,6 +196,9 @@
         <mxCell id="JssCa9j4nvpIzmntWB5Z-34" value="&lt;span style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: transparent; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;pago principal y pago por tolerancia excedida&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="1870" width="270" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-35" value="Consulta-por" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="991.25" y="1626.88" width="118.75" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
