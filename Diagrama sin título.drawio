@@ -132,7 +132,7 @@
         <mxCell id="JssCa9j4nvpIzmntWB5Z-5" value="Caja" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="427.5" y="1754" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-6" value="Vallas&lt;div&gt;o correo a operario de salida&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-6" value="Valla cerrada&lt;div&gt;o correo a operario de salida&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="1610" width="107.88" height="63.75" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-7" target="JssCa9j4nvpIzmntWB5Z-21">
@@ -187,7 +187,7 @@
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-27" value="Señal&lt;div&gt;(POR_SALIR -&amp;gt; TOLERANCIA_EXCEDIDA)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JssCa9j4nvpIzmntWB5Z-26">
           <mxGeometry x="-0.0483" y="1" relative="1" as="geometry">
-            <mxPoint x="-5" y="31" as="offset" />
+            <mxPoint x="2" y="31" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-28" value="Estados:&lt;div&gt;EN_CURSO&lt;/div&gt;&lt;div&gt;POR_SALIR&lt;/div&gt;&lt;div&gt;TOLERANCIA_EXCEDIDA&lt;/div&gt;&lt;div&gt;FINALIZADO&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
