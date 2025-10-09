@@ -127,7 +127,7 @@
           <mxGeometry x="1520" y="1070" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fx3ovUF_y4Gtsgt8O4_c-59" value="PPP-988" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-19.999999999999986" y="1742.13" width="65" height="23.75" as="geometry" />
+          <mxGeometry x="-9.999999999999986" y="1742.13" width="65" height="23.75" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-5" value="Caja" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="427.5" y="1754" width="80" height="60" as="geometry" />
@@ -177,7 +177,7 @@
           <mxGeometry x="236.09" y="1560" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-22" value="Sistema de Estacionamiento" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="905" y="1443.75" width="230" height="30" as="geometry" />
+          <mxGeometry x="620" y="1443.75" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-23" value="Marca hora ingreso" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="183.42000000000002" y="1626.88" width="103" height="30" as="geometry" />
@@ -187,17 +187,14 @@
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-27" value="Señal&lt;div&gt;(POR_SALIR -&amp;gt; TOLERANCIA_EXCEDIDA)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JssCa9j4nvpIzmntWB5Z-26">
           <mxGeometry x="-0.0483" y="1" relative="1" as="geometry">
-            <mxPoint x="-18" y="31" as="offset" />
+            <mxPoint x="-5" y="31" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-28" value="Estados:&lt;div&gt;EN_CURSO&lt;/div&gt;&lt;div&gt;POR_SALIR&lt;/div&gt;&lt;div&gt;TOLERANCIA_EXCEDIDA&lt;/div&gt;&lt;div&gt;FINALIZADO&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="196.09" y="1890" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-34" value="&lt;span style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: transparent; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;pago principal y pago por tolerancia excedida&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1870" width="270" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-36" value="&lt;div&gt;[Web]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;|&amp;nbsp; JSON (Bearer)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;v&lt;/div&gt;&lt;div&gt;[SENDA REST API] --valida--&amp;gt; [Builder UBL 2.1] --firma (PFX)--&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;SOAP/WS SUNAT (billService/summary/baja)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;v&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;|&amp;lt;-------------- CDR (aceptado/obs/rechazado) ---- [SUNAT SEE]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;v&lt;/div&gt;&lt;div&gt;[SENDA: XML/CDR/PDF + estado]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;^&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;|&amp;nbsp; consulta (polling)&lt;/div&gt;&lt;div&gt;[Web] --- descarga evidencias y actualiza estado propio ---&amp;gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1850" width="440" height="306" as="geometry" />
+          <mxGeometry x="530" y="1874" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-37" target="JssCa9j4nvpIzmntWB5Z-38">
           <mxGeometry relative="1" as="geometry">
@@ -208,7 +205,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-37" value="Web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="1580" width="120" height="60" as="geometry" />
+          <mxGeometry x="990" y="1566.88" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-38" target="JssCa9j4nvpIzmntWB5Z-37">
           <mxGeometry relative="1" as="geometry">
@@ -220,9 +217,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-50" value="estado&lt;div&gt;del archivo&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JssCa9j4nvpIzmntWB5Z-44">
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-50" value="expone link&lt;br&gt;- CDR&lt;br&gt;- XML&lt;div&gt;- PDF&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JssCa9j4nvpIzmntWB5Z-44">
           <mxGeometry x="0.1481" y="1" relative="1" as="geometry">
-            <mxPoint x="-29" y="6" as="offset" />
+            <mxPoint x="-39" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-38" target="JssCa9j4nvpIzmntWB5Z-42">
@@ -234,11 +231,11 @@
         <mxCell id="JssCa9j4nvpIzmntWB5Z-42" value="SUNAT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1400" y="1705.88" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-45" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;archivo XML&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;firma (.pfx)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="1656.88" width="90" height="70" as="geometry" />
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-45" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;archivo XML&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;firma (.pfx) - certificado digital&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1666.25" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-46" value="firma (.pfx)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="1666.25" width="80" height="30" as="geometry" />
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-46" value="json (datos)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1656.88" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-42" target="JssCa9j4nvpIzmntWB5Z-38">
           <mxGeometry relative="1" as="geometry">
@@ -251,8 +248,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-49" value="&lt;br&gt;XML,&amp;nbsp;&lt;div&gt;CDR (Constancia de recepción),&lt;div&gt;PDF&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1205" y="1784" width="200" height="70" as="geometry" />
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-49" value="&lt;br&gt;&lt;div&gt;CDR (Constancia de recepción),&lt;div&gt;Aceptado&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Rechazado&lt;/div&gt;&lt;div&gt;Anulado&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1784" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
