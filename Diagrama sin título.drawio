@@ -145,7 +145,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-7" target="JssCa9j4nvpIzmntWB5Z-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="1754" />
+              <mxPoint x="265" y="1790" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-7" value="Placa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="72.85000000000001" y="1724" width="30" height="60" as="geometry" />
@@ -159,12 +164,12 @@
         <mxCell id="JssCa9j4nvpIzmntWB5Z-20" value="- Cálculo costo (Lógica de CUS)&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Pago múltiple (pago principal y pago por tolerancia excedidA)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="411.64" y="1824" width="105.86" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-21" target="JssCa9j4nvpIzmntWB5Z-5">
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-21" target="JssCa9j4nvpIzmntWB5Z-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="276" y="1680" />
               <mxPoint x="350" y="1680" />
-              <mxPoint x="350" y="1784" />
+              <mxPoint x="350" y="1769" />
             </Array>
           </mxGeometry>
         </mxCell>
