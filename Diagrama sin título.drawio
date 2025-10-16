@@ -258,34 +258,34 @@
           <mxGeometry x="1090" y="1740" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-56" value="https://int.sendaefact.pe/webservice/detalle_comprobante " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="1961" width="320" height="30" as="geometry" />
+          <mxGeometry x="1130" y="1950" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-57" value="https://int.sendaefact.pe/webservice/anular_comprobante   " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="2001" width="320" height="30" as="geometry" />
+          <mxGeometry x="1130" y="1980" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-59" value="https://int.sendaefact.pe/webservice/emitir_comprobante&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-59" value="https://int.sendaefact.pe/webservice/emitir_comprobante&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1920" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-60" value="SENDA&lt;div&gt;(PSE/OSE)&lt;/div&gt;&lt;div&gt;SEE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="2080" width="80" height="110" as="geometry" />
+          <mxGeometry x="1400" y="2030" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-61" value="Módulo Comprobante" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120.63" y="2090" width="98.75" height="110" as="geometry" />
+          <mxGeometry x="1101.25" y="2040" width="98.75" height="110" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.008;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-61" target="JssCa9j4nvpIzmntWB5Z-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1150" y="2120" as="sourcePoint" />
-            <mxPoint x="1400" y="2120" as="targetPoint" />
+            <mxPoint x="1130" y="2070" as="sourcePoint" />
+            <mxPoint x="1380" y="2070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1400" y="2160" as="sourcePoint" />
-            <mxPoint x="1220" y="2166" as="targetPoint" />
+            <mxPoint x="1380" y="2110" as="sourcePoint" />
+            <mxPoint x="1201" y="2110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-65" value="&lt;div&gt;NO_EMITIDO&lt;/div&gt;&lt;div&gt;EN_EMISION&lt;/div&gt;&lt;div&gt;ACEPTADO&lt;/div&gt;&lt;div&gt;ACEPTADO_CON_OBSERVACION&lt;/div&gt;&lt;div&gt;RECHAZADO&lt;/div&gt;&lt;div&gt;ERROR&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="2210" width="215" height="110" as="geometry" />
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-65" value="&lt;div&gt;NO_EMITIDO&lt;/div&gt;&lt;div&gt;EN_EMISION&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EMITIDO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EMITIDO_CON_OBSERVACION&lt;/span&gt;&lt;/div&gt;&lt;div&gt;RECHAZADO&lt;/div&gt;&lt;div&gt;ERROR&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="2160" width="215" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
