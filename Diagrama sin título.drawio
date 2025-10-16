@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Página-1" id="kb-qeI54YMK6Ym24xds6">
-    <mxGraphModel dx="2067" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1778" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,7 +202,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-37" value="Web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="1560" width="120" height="60" as="geometry" />
+          <mxGeometry x="990" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-38" target="JssCa9j4nvpIzmntWB5Z-37">
           <mxGeometry relative="1" as="geometry">
@@ -232,7 +232,7 @@
           <mxGeometry x="1180" y="1666.25" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-46" value="json (datos)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="1643.75" width="90" height="30" as="geometry" />
+          <mxGeometry x="1060" y="1636.25" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-42" target="JssCa9j4nvpIzmntWB5Z-38">
           <mxGeometry relative="1" as="geometry">
@@ -253,6 +253,39 @@
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-54" value="referencia a Comprobante&lt;br&gt;(pago principal y pago secundario)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="1849" width="211.03" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-55" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-56" value="https://int.sendaefact.pe/webservice/detalle_comprobante " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1961" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-57" value="https://int.sendaefact.pe/webservice/anular_comprobante   " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2001" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-59" value="https://int.sendaefact.pe/webservice/emitir_comprobante&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1920" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-60" value="SENDA&lt;div&gt;(PSE/OSE)&lt;/div&gt;&lt;div&gt;SEE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="2080" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-61" value="Módulo Comprobante" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120.63" y="2090" width="98.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.008;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-61" target="JssCa9j4nvpIzmntWB5Z-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="2120" as="sourcePoint" />
+            <mxPoint x="1400" y="2120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="JssCa9j4nvpIzmntWB5Z-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="2160" as="sourcePoint" />
+            <mxPoint x="1220" y="2166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-65" value="&lt;div&gt;NO_EMITIDO&lt;/div&gt;&lt;div&gt;EN_EMISION&lt;/div&gt;&lt;div&gt;ACEPTADO&lt;/div&gt;&lt;div&gt;ACEPTADO_CON_OBSERVACION&lt;/div&gt;&lt;div&gt;RECHAZADO&lt;/div&gt;&lt;div&gt;ERROR&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2210" width="215" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
