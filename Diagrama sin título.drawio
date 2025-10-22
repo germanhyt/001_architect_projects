@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="Página-1" id="kb-qeI54YMK6Ym24xds6">
-    <mxGraphModel dx="2253" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1747" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -267,25 +267,55 @@
           <mxGeometry x="1130" y="1920" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-60" value="SENDA&lt;div&gt;(PSE/OSE)&lt;/div&gt;&lt;div&gt;SEE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="2030" width="80" height="110" as="geometry" />
+          <mxGeometry x="1400" y="2040" width="80" height="260" as="geometry" />
         </mxCell>
         <mxCell id="JssCa9j4nvpIzmntWB5Z-61" value="Módulo Comprobante" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1101.25" y="2040" width="98.75" height="110" as="geometry" />
+          <mxGeometry x="980" y="2040" width="98.75" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.008;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JssCa9j4nvpIzmntWB5Z-61" target="JssCa9j4nvpIzmntWB5Z-60" edge="1">
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-62" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.025;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="JssCa9j4nvpIzmntWB5Z-60" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1130" y="2070" as="sourcePoint" />
-            <mxPoint x="1380" y="2070" as="targetPoint" />
+            <mxPoint x="1080" y="2090" as="sourcePoint" />
+            <mxPoint x="1390" y="2090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="JssCa9j4nvpIzmntWB5Z-60" edge="1">
+        <mxCell id="JssCa9j4nvpIzmntWB5Z-63" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.001;exitY=0.275;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="JssCa9j4nvpIzmntWB5Z-60" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1380" y="2110" as="sourcePoint" />
-            <mxPoint x="1201" y="2110" as="targetPoint" />
+            <mxPoint x="1390" y="2110" as="sourcePoint" />
+            <mxPoint x="1080" y="2110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JssCa9j4nvpIzmntWB5Z-65" value="&lt;div&gt;NO_EMITIDO&lt;/div&gt;&lt;div&gt;EN_EMISION&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EMITIDO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EMITIDO_CON_OBSERVACION&lt;/span&gt;&lt;/div&gt;&lt;div&gt;RECHAZADO&lt;/div&gt;&lt;div&gt;ERROR&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="2160" width="215" height="110" as="geometry" />
+        <mxCell id="Hd7ag-8rG0OCeXxcRduB-1" value="&lt;div&gt;Borrador&lt;/div&gt;&lt;div&gt;Pendiente&lt;/div&gt;&lt;div&gt;Aceptado&lt;/div&gt;&lt;div&gt;Anulado&lt;/div&gt;&lt;div&gt;Anulado con NC (Nota de Crédito)&lt;/div&gt;&lt;div&gt;Rechazado&lt;/div&gt;&lt;div&gt;Aceptado con observaciones&lt;/div&gt;&lt;div&gt;Baja en proceso&lt;/div&gt;&lt;div&gt;Error SUNAT&lt;/div&gt;&lt;div&gt;Error en Datos&lt;/div&gt;&lt;div&gt;Aceptado sin CDR&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="2310" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd7ag-8rG0OCeXxcRduB-2" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Se genera&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;el&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;comprobante&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(Borrador)&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2338" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd7ag-8rG0OCeXxcRduB-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.001;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1081" y="2150" as="sourcePoint" />
+            <mxPoint x="1401" y="2148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd7ag-8rG0OCeXxcRduB-4" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.001;exitY=0.296;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1401" y="2169" as="sourcePoint" />
+            <mxPoint x="1080" y="2169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd7ag-8rG0OCeXxcRduB-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.001;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="2212" as="sourcePoint" />
+            <mxPoint x="1400" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd7ag-8rG0OCeXxcRduB-7" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.001;exitY=0.296;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="2231" as="sourcePoint" />
+            <mxPoint x="1079" y="2231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd7ag-8rG0OCeXxcRduB-9" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Se genera&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;el&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;comprobante&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(Pendiente)&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="2338" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
