@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Página-1" id="kb-qeI54YMK6Ym24xds6">
-    <mxGraphModel dx="1968" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -835,40 +835,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-9" value="Abonado" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-300.38" y="4290" width="30" height="60" as="geometry" />
+          <mxGeometry x="-292.5" y="4290" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-10" value="CUS: Contrato temporal con rango horario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="4190" width="120" height="60" as="geometry" />
+          <mxGeometry x="-160" y="4220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-11" value="CUS: Facturación y Pago Mensual" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="4360" width="120" height="60" as="geometry" />
+          <mxGeometry x="-160" y="4330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-16" value="Autorizado" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-292.5" y="4820" width="30" height="60" as="geometry" />
+          <mxGeometry x="-292.5" y="4940" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4_LbDSSres0YkuS6twan-17" target="4_LbDSSres0YkuS6twan-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-17" value="Visitante Regular&lt;div&gt;No Consumidor&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="4520" width="30" height="60" as="geometry" />
+          <mxGeometry x="-292.5" y="4490" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-21" value="Visitante Regular&lt;div&gt;Consumidor&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-292.5" y="4676" width="30" height="60" as="geometry" />
+          <mxGeometry x="-290.38" y="4740" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-23" value="Proveedor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-292.5" y="4950" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4_LbDSSres0YkuS6twan-24" value="Personal" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-292.5" y="5070" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-24" value="Personal" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-292.5" y="5190" width="30" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-29" value="Usuario Operario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-292.5" y="5210" width="30" height="60" as="geometry" />
+          <mxGeometry x="-292.5" y="5330" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-30" value="Usuario Aministrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-292.5" y="5340" width="30" height="60" as="geometry" />
+          <mxGeometry x="-292.5" y="5460" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-32" value="CUS: Calculo de costo de estadía" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-177.38" y="4480" width="120" height="60" as="geometry" />
+          <mxGeometry x="-160" y="4430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4_LbDSSres0YkuS6twan-33" value="CUS: Calculo de costo de estadía" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="4580" width="120" height="60" as="geometry" />
+        <mxCell id="4_LbDSSres0YkuS6twan-33" value="CUS: Tolerancia de salida base de 10min" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="4550" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.607;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4_LbDSSres0YkuS6twan-17" target="4_LbDSSres0YkuS6twan-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-36" value="CUS: Calculo de costo de estadía, y aplicar descuento por consumo (3h)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-162.27" y="4660" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-37" value="CUS: Si sobra tiempo de descuento se asigna como tolerancia de salida, caso contrario se aplica tolerancia personalizada en base al consumo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-162.26999999999998" y="4770" width="184.54" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.595;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4_LbDSSres0YkuS6twan-21" target="4_LbDSSres0YkuS6twan-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4_LbDSSres0YkuS6twan-21" target="4_LbDSSres0YkuS6twan-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
