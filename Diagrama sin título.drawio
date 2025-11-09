@@ -864,6 +864,12 @@
         <mxCell id="4_LbDSSres0YkuS6twan-30" value="Usuario Aministrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-292.5" y="5340" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-32" value="CUS: Calculo de costo de estadía" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-177.38" y="4480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-33" value="CUS: Calculo de costo de estadía" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="4580" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
