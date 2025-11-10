@@ -959,6 +959,12 @@
         <mxCell id="4_LbDSSres0YkuS6twan-73" value="Ingresar fecha de emisión" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="414" y="4115" width="76.06" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-74" value="Generación&lt;div&gt;de&amp;nbsp;&lt;/div&gt;&lt;div&gt;factura&amp;nbsp;&lt;/div&gt;&lt;div&gt;mensual&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540.89" y="4120" width="76.06" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-75" value="Se crea Factura Abonado" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="662.43" y="4120" width="97.57" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
