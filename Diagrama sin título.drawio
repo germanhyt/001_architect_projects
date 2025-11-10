@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Página-1" id="kb-qeI54YMK6Ym24xds6">
-    <mxGraphModel dx="3679" dy="1566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -949,6 +949,15 @@
         </mxCell>
         <mxCell id="4_LbDSSres0YkuS6twan-59" value="Usuario Cajero" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-192.13" y="5610" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-71" value="Generar Factura" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307.12000000000006" y="4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-72" value="Seleccionar&lt;div&gt;abonado&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="176.24" y="4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_LbDSSres0YkuS6twan-73" value="Ingresar fecha de emisión" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="4115" width="76.06" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
