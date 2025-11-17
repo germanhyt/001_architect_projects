@@ -103,7 +103,7 @@
           <mxGeometry x="1011.25" y="691.25" width="20" height="752.5" as="geometry" />
         </mxCell>
         <mxCell id="fx3ovUF_y4Gtsgt8O4_c-47" value="Local -&amp;gt; Producción" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="650" y="1080" width="122.12" height="30" as="geometry" />
+          <mxGeometry x="656.5" y="1080" width="122.12" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fx3ovUF_y4Gtsgt8O4_c-48" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;power automate&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;(trigger para actualización automática)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1200" y="810" width="210" height="50" as="geometry" />
